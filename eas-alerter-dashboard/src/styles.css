@@ -1,0 +1,128 @@
+:root {
+  color: #1c1f23;
+  background-color: #f6f7f9;
+  font-family: "Inter", system-ui, sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.app-shell {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.app-header {
+  background: #0c1c2f;
+  color: #fff;
+  padding: 1.5rem 2rem;
+}
+
+.app-header h1 {
+  margin: 0 0 0.75rem 0;
+  font-size: 1.6rem;
+}
+
+nav {
+  display: flex;
+  gap: 1rem;
+}
+
+nav a {
+  color: #b8d5ff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+nav a.active {
+  color: #fff;
+  border-bottom: 2px solid #fff;
+  padding-bottom: 2px;
+}
+
+main {
+  padding: 2rem;
+}
+
+.card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 12px 30px rgba(18, 38, 63, 0.08);
+  margin-bottom: 1.5rem;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  text-align: left;
+  padding: 0.75rem;
+  border-bottom: 1px solid #e5e9f2;
+}
+
+.table th {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #6b7280;
+}
+
+.badge {
+  display: inline-block;
+  padding: 0.2rem 0.6rem;
+  border-radius: 999px;
+  background: #e3f2ff;
+  color: #0b4a8b;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+}
+
+label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+  width: 100%;
+  padding: 0.6rem;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+  background: #fff;
+}
+
+button {
+  background: #0c1c2f;
+  color: #fff;
+  border: none;
+  padding: 0.7rem 1.2rem;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+pre {
+  white-space: pre-wrap;
+  background: #f0f4f9;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.note {
+  color: #6b7280;
+  font-size: 0.9rem;
+}
